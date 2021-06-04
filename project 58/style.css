@@ -1,0 +1,42 @@
+body{
+  background-image:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  text-align:center;
+}
+p{
+  font-size:20px;
+}
+h1{
+  word-spacing:10px;
+  font-variant:small-caps;
+  text-align:center;
+  font-size:50px;
+}
+img{
+  border-style:solid;
+  
+  padding:5px;
+  border-radius:20px;
+}
+.menu {
+    list-style: circle;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: center;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: s-resize;
+    font-size: 20px
+}
+.links:hover {
+    background-color: pink;
+}
